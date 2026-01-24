@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+/* main style */
+.logo{
+
+    margin-left: 120px;
+    margin-top: 16px;
+}
+
+
+
+nav{
+   
+    max-width: 1600px;
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px ;
+    margin-top: 34px ;
+}
+
+nav .menu a {
+    font-size: 16px ;
+    color: #000000;
+    text-decoration: none;
+    
+   
+}
+  
+.button {
+    background-color: #469165;
+    color: #FFFFFF;
+    margin-top: 24px ;  
+    margin-right: 120px ;
+    border: none;
+    padding: 12.5px 16px ;
+    border-radius: 5px ;
+}
+
+
+
